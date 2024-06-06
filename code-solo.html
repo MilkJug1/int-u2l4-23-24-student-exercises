@@ -4,14 +4,23 @@
         <title>Code Solo</title>
         <style>
            /* 1. Yeck, the image is way too big. Select the class name `image` and adjust the width to a reasonable size. */
-           
+            .image {
+               width: 50%
+           }           
            /* 2. Select the body tag and change: the background color to your favorite color and the font color to one that works well with the background. */
-
+            body {
+               background-color: #CC2FFB
+           }
            /* 3. Change the background color for the paragraph tags to whatever color you like. */
-
+            p {
+               background-color: #2FFEC9
+           }
            /* 4. Choose one more html element to change on your page. Change it however you want. */
 
            /* 5. Spicy Task: see if you can align the h1 header to the center of the page. */
+           h1 {
+               text-align: center;
+           }
 
         </style>
     </head>
@@ -41,7 +50,13 @@
                 <li>Remove from heat once the popping slows down.</li>
                 <li>Season with salt, butter, or your favorite flavors, and enjoy!</li>
             </ol>
-
+            <input class="username">
+            <button class="login">Go!</button>
+            <script>
+                button.onclick = function() {
+                      let name = document.querySelector('username').value; // Retrieves the value from the input field
+                };
+            </script>
             <h2>Popular Popcorn Flavors</h2>
             <ul>
                 <li>Buttered</li>
